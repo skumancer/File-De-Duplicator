@@ -7,24 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE69A48925EA01E10013A816 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A48825EA01E10013A816 /* Tests_iOS.swift */; };
 		FE69A49425EA01E20013A816 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A49325EA01E20013A816 /* Tests_macOS.swift */; };
-		FE69A49625EA01E20013A816 /* File_De_DuplicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A46D25EA01E10013A816 /* File_De_DuplicatorApp.swift */; };
 		FE69A49725EA01E20013A816 /* File_De_DuplicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A46D25EA01E10013A816 /* File_De_DuplicatorApp.swift */; };
-		FE69A49825EA01E20013A816 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A46E25EA01E10013A816 /* ContentView.swift */; };
 		FE69A49925EA01E20013A816 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A46E25EA01E10013A816 /* ContentView.swift */; };
-		FE69A49A25EA01E20013A816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE69A46F25EA01E10013A816 /* Assets.xcassets */; };
 		FE69A49B25EA01E20013A816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE69A46F25EA01E10013A816 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FE69A48525EA01E10013A816 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE69A46825EA01E00013A816 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE69A47325EA01E10013A816;
-			remoteInfo = "File De-Duplicator (iOS)";
-		};
 		FE69A49025EA01E20013A816 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FE69A46825EA01E00013A816 /* Project object */;
@@ -38,35 +27,16 @@
 		FE69A46D25EA01E10013A816 /* File_De_DuplicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_De_DuplicatorApp.swift; sourceTree = "<group>"; };
 		FE69A46E25EA01E10013A816 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE69A46F25EA01E10013A816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE69A47425EA01E10013A816 /* File De-Duplicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "File De-Duplicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE69A47725EA01E10013A816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE69A47C25EA01E10013A816 /* File De-Duplicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "File De-Duplicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE69A47E25EA01E10013A816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE69A47F25EA01E10013A816 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		FE69A48425EA01E10013A816 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE69A48825EA01E10013A816 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		FE69A48A25EA01E20013A816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE69A48F25EA01E20013A816 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE69A49325EA01E20013A816 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FE69A49525EA01E20013A816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE69A47125EA01E10013A816 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FE69A47925EA01E10013A816 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE69A48125EA01E10013A816 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,9 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				FE69A46C25EA01E10013A816 /* Shared */,
-				FE69A47625EA01E10013A816 /* iOS */,
 				FE69A47D25EA01E10013A816 /* macOS */,
-				FE69A48725EA01E10013A816 /* Tests iOS */,
 				FE69A49225EA01E20013A816 /* Tests macOS */,
 				FE69A47525EA01E10013A816 /* Products */,
 			);
@@ -108,20 +76,10 @@
 		FE69A47525EA01E10013A816 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE69A47425EA01E10013A816 /* File De-Duplicator.app */,
 				FE69A47C25EA01E10013A816 /* File De-Duplicator.app */,
-				FE69A48425EA01E10013A816 /* Tests iOS.xctest */,
 				FE69A48F25EA01E20013A816 /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FE69A47625EA01E10013A816 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FE69A47725EA01E10013A816 /* Info.plist */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 		FE69A47D25EA01E10013A816 /* macOS */ = {
@@ -131,15 +89,6 @@
 				FE69A47F25EA01E10013A816 /* macOS.entitlements */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		FE69A48725EA01E10013A816 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FE69A48825EA01E10013A816 /* Tests_iOS.swift */,
-				FE69A48A25EA01E20013A816 /* Info.plist */,
-			);
-			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
 		FE69A49225EA01E20013A816 /* Tests macOS */ = {
@@ -154,23 +103,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE69A47325EA01E10013A816 /* File De-Duplicator (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE69A49E25EA01E20013A816 /* Build configuration list for PBXNativeTarget "File De-Duplicator (iOS)" */;
-			buildPhases = (
-				FE69A47025EA01E10013A816 /* Sources */,
-				FE69A47125EA01E10013A816 /* Frameworks */,
-				FE69A47225EA01E10013A816 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "File De-Duplicator (iOS)";
-			productName = "File De-Duplicator (iOS)";
-			productReference = FE69A47425EA01E10013A816 /* File De-Duplicator.app */;
-			productType = "com.apple.product-type.application";
-		};
 		FE69A47B25EA01E10013A816 /* File De-Duplicator (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE69A4A125EA01E20013A816 /* Build configuration list for PBXNativeTarget "File De-Duplicator (macOS)" */;
@@ -187,24 +119,6 @@
 			productName = "File De-Duplicator (macOS)";
 			productReference = FE69A47C25EA01E10013A816 /* File De-Duplicator.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FE69A48325EA01E10013A816 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE69A4A425EA01E20013A816 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				FE69A48025EA01E10013A816 /* Sources */,
-				FE69A48125EA01E10013A816 /* Frameworks */,
-				FE69A48225EA01E10013A816 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE69A48625EA01E10013A816 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = FE69A48425EA01E10013A816 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		FE69A48E25EA01E20013A816 /* Tests macOS */ = {
 			isa = PBXNativeTarget;
@@ -233,15 +147,8 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					FE69A47325EA01E10013A816 = {
-						CreatedOnToolsVersion = 12.4;
-					};
 					FE69A47B25EA01E10013A816 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					FE69A48325EA01E10013A816 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = FE69A47325EA01E10013A816;
 					};
 					FE69A48E25EA01E20013A816 = {
 						CreatedOnToolsVersion = 12.4;
@@ -262,35 +169,18 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE69A47325EA01E10013A816 /* File De-Duplicator (iOS) */,
 				FE69A47B25EA01E10013A816 /* File De-Duplicator (macOS) */,
-				FE69A48325EA01E10013A816 /* Tests iOS */,
 				FE69A48E25EA01E20013A816 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE69A47225EA01E10013A816 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE69A49A25EA01E20013A816 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FE69A47A25EA01E10013A816 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FE69A49B25EA01E20013A816 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE69A48225EA01E10013A816 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,29 +194,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FE69A47025EA01E10013A816 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE69A49825EA01E20013A816 /* ContentView.swift in Sources */,
-				FE69A49625EA01E20013A816 /* File_De_DuplicatorApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FE69A47825EA01E10013A816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FE69A49925EA01E20013A816 /* ContentView.swift in Sources */,
 				FE69A49725EA01E20013A816 /* File_De_DuplicatorApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE69A48025EA01E10013A816 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE69A48925EA01E10013A816 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,11 +214,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE69A48625EA01E10013A816 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE69A47325EA01E10013A816 /* File De-Duplicator (iOS) */;
-			targetProxy = FE69A48525EA01E10013A816 /* PBXContainerItemProxy */;
-		};
 		FE69A49125EA01E20013A816 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FE69A47B25EA01E10013A816 /* File De-Duplicator (macOS) */;
@@ -465,51 +333,6 @@
 			};
 			name = Release;
 		};
-		FE69A49F25EA01E20013A816 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6BWLQXDC7;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "skumancer.File-De-Duplicator";
-				PRODUCT_NAME = "File De-Duplicator";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FE69A4A025EA01E20013A816 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6BWLQXDC7;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "skumancer.File-De-Duplicator";
-				PRODUCT_NAME = "File De-Duplicator";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		FE69A4A225EA01E20013A816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -555,51 +378,6 @@
 				PRODUCT_NAME = "File De-Duplicator";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		FE69A4A525EA01E20013A816 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6BWLQXDC7;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "skumancer.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "File De-Duplicator (iOS)";
-			};
-			name = Debug;
-		};
-		FE69A4A625EA01E20013A816 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6BWLQXDC7;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "skumancer.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "File De-Duplicator (iOS)";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -659,29 +437,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE69A49E25EA01E20013A816 /* Build configuration list for PBXNativeTarget "File De-Duplicator (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE69A49F25EA01E20013A816 /* Debug */,
-				FE69A4A025EA01E20013A816 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FE69A4A125EA01E20013A816 /* Build configuration list for PBXNativeTarget "File De-Duplicator (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE69A4A225EA01E20013A816 /* Debug */,
 				FE69A4A325EA01E20013A816 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE69A4A425EA01E20013A816 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE69A4A525EA01E20013A816 /* Debug */,
-				FE69A4A625EA01E20013A816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
